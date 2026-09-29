@@ -1,0 +1,5 @@
+Train images shape: (60000, 784)
+Train labels shape: (60000,)
+Test images shape:  (10000, 784)
+Test labels shape:  (10000,)
+Class labels: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']

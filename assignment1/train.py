@@ -12,7 +12,7 @@ from sklearn.metrics import auc, classification_report, confusion_matrix, roc_cu
 from torch import nn
 from torch.utils.data import DataLoader, TensorDataset
 
-from data_prep import CLASS_LABELS, IMAGE_SIZE, NUM_PIXELS, load_data, validate_data
+from assignment1.data_prep import CLASS_LABELS, IMAGE_SIZE, NUM_PIXELS, load_data, validate_data
 
 torch.manual_seed(42)
 

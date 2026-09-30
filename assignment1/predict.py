@@ -11,8 +11,8 @@ from pathlib import Path
 import numpy as np
 import torch
 
-from data_prep import IMAGE_SIZE, load_data
-from train import MODEL_PATH, LogisticRegressionModel, device
+from assignment1.data_prep import IMAGE_SIZE, load_data
+from assignment1.train import MODEL_PATH, LogisticRegressionModel, device
 
 CLASS_LABELS = [str(i) for i in range(10)]
 
